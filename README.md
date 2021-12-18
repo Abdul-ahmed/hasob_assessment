@@ -26,22 +26,34 @@ vi. Picture_url <br>
 vii. Password <br>
 viii. Is_disabled <br>
 
-###### This User Model has it's model class for connecting with the database, controller class where some function is carried out, form request to validate, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration, likewise notification class if anything other action is carrried out in term of notification for while user trying to login. In conclusion on this, JWT is used to authenticate the user model and unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
+##### This User Model has it's model class for connecting with the database, controller class where some function is carried out, form request to validate, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration, likewise notification class if anything other action is carrried out in term of notification for while user trying to login. In conclusion on this, JWT is used to authenticate the user model and unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
+
+## 2. CRUD API for Asset Model
+The Asset functionality should capture the following features:<br>
+a. Model <br>
+b. Controller <br>
+c. FormRequest <br>
+d. Event and Listener. <br>
+e.  Testing to include: Unit Testing, API testing. <br>
+
+## The Asset Model should have the following properties: <br>
+i. Type <br>
+ii. Serial Number <br>
+iii. Description <br>
+iv. Fixed or Movable <br>
+v. Picture_path <br>
+vi. Purchase date <br>
+vii. Start_use_date <br>
+viii.Purchase price <br>
+ix. Warranty Expiry date <br>
+x.  Degradation in years <br>
+xi. Current Value in naira <br>
+xii. Location <br>
+
+###### This Asset Model is produce with laravel resources api class that mades the CRUD more easier to get done, the Asset Model has it's model class for connecting to its database table, controller class where the CRUD operation is performed, form request for validation, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration. Finanlly, unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
 
 
 
-## Contributing
+## Copyright
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Hasob Assessment (CRUD Laravel 8 Api with JWT Authentication) is proudly done by Abdulahmed Olayiwola Abdulhakeem. This assessment is open-sourced for any usage, editing and updating. Thanks
