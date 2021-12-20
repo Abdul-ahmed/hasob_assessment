@@ -3,7 +3,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 # HASOB ASSESSMENT
-# Create Read Update Delete - CRUD Laravel 8 Api using JWT Authentication
+# Create Read Update Delete - CRUD Laravel 8 REST Api using JWT Authentication
 
 This assessment is to create four (4) functional module, which this part include the User, Asset, Vendor and Asset Assignment :
 
@@ -56,4 +56,4 @@ xii. Location <br>
 
 ## Copyright
 
-The Hasob Assessment (CRUD Laravel 8 Api with JWT Authentication) is proudly done by Abdulahmed Olayiwola Abdulhakeem. This assessment is open-sourced for any usage, editing and updating. Thanks
+The Hasob Assessment (CRUD Laravel 8 REST Api with JWT Authentication) is proudly done by Abdulahmed Olayiwola Abdulhakeem. This assessment is open-sourced for any usage, editing and updating. Thanks
