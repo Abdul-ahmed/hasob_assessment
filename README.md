@@ -63,7 +63,7 @@ e.  Testing to include: Unit Testing, API testing.<br>
 i. Name<br>
 ii. Category<br>
 
-###### This Asset Model is produce with laravel resources api class that mades the CRUD more easier to get done, the Asset Model has it's model class for connecting to its database table, controller class where the CRUD operation is performed, form request for validation, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration. Finanlly, unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
+###### This Vendor Model is produce with laravel resources api class that mades the CRUD more easier to get done, the Asset Model has it's model class for connecting to its database table, controller class where the CRUD operation is performed, form request for validation, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration. Finanlly, unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
 
 ## 4. CRUD API for Asset Assignment
 a. Model<br>
@@ -81,7 +81,7 @@ v.   Due_date <br>
 vi.  Assigned_user_id <br>
 vii. Assigned_by <br>
 
-###### This Asset Model is produce with laravel resources api class that mades the CRUD more easier to get done, the Asset Model has it's model class for connecting to its database table, controller class where the CRUD operation is performed, form request for validation, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration. Finanlly, unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
+###### This Asset Assignment Model is produce with laravel resources api class that mades the CRUD more easier to get done, the Asset Model has it's model class for connecting to its database table, controller class where the CRUD operation is performed, form request for validation, laravel resource api to redefine some functionality, Event and Listener to trigger email notification for user registration. Finanlly, unit testing and api testing is carried out on the module to confirm proper functionality of the module and proper serve response.
 
 ## Copyright
 
