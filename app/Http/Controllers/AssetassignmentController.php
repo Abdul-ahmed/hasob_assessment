@@ -85,7 +85,7 @@ class AssetassignmentController extends Controller
      */
     public function update(UpdateassetassignmentRequest $request, Assetassignment $assetassignment)
     {
-        $user = Assetassignment::find(1);
+        // $user = Assetassignment::find(1);
 
         $assetassignment->update([
             'asset_id'=>$request->asset_id,
