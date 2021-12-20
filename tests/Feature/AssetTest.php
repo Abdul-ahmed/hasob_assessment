@@ -3,9 +3,11 @@
 namespace Tests\Feature;
 
 use App\Models\Asset;
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+use Illuminate\Contracts\Auth\Authenticatable;
 
 class AssetTest extends TestCase
 {
@@ -42,11 +44,26 @@ class AssetTest extends TestCase
         $response->assertStatus(201);
     }
 
-    // public function test_show()
-    // {
-    //     $response = $this->get("/api/auth/assets/{asset}");
-    //     $response->assertStatus(200);
-    // }
+    public function test_show()
+    {
+        $asset = Asset::where([
+            'type'=>'Hi',
+            'serial_number'=>'Hi',
+            'description'=>'Hi',
+            'fixed_or_Movable'=>'Hi',
+            'picture_path'=>'Hi',
+            'purchase_date'=>'Hi',
+            'start_use_date'=>'Hi',
+            'purchase_price'=>'Hi',
+            'warranty_expiry_date'=>'Hi',
+            'degradation_in_years'=>'Hi',
+            'current_value_in_naira'=>'Hi',
+            'location'=>'Hi'
+        ])->first();
+        $response = $this->post('/api/auth/assets/'.$asset->id);
+        $response->assertStatus(self::HTTP_OK);
+
+    }
 
     // public function test_update()
     // {
