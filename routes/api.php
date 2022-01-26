@@ -35,7 +35,5 @@ Route::group([
     Route::apiResource('assets', AssetController::class);
     Route::apiResource('vendors', VendorController::class);
     Route::apiResource('assetassignments', AssetassignmentController::class);
-
-
 });
 
